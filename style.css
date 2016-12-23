@@ -1,0 +1,156 @@
+@font-face {
+  font-family: 'Programmicons';
+  src:  url('fonts/Programmicons.eot?j9d0wm');
+  src:  url('fonts/Programmicons.eot?j9d0wm#iefix') format('embedded-opentype'),
+    url('fonts/Programmicons.ttf?j9d0wm') format('truetype'),
+    url('fonts/Programmicons.woff?j9d0wm') format('woff'),
+    url('fonts/Programmicons.svg?j9d0wm#Programmicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Programmicons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.lang-angular:before {
+  content: "\e900";
+}
+.lang-bash:before {
+  content: "\e901";
+}
+.lang-bootstrap:before {
+  content: "\e902";
+}
+.lang-c:before {
+  content: "\e903";
+}
+.lang-clojure:before {
+  content: "\e904";
+}
+.lang-cpp:before {
+  content: "\e905";
+}
+.lang-css3:before {
+  content: "\e906";
+}
+.lang-css:before {
+  content: "\e906";
+}
+.lang-dart:before {
+  content: "\e907";
+}
+.lang-dotnet:before {
+  content: "\e908";
+}
+.lang-go:before {
+  content: "\e909";
+}
+.lang-groovy:before {
+  content: "\e90a";
+}
+.lang-haskell:before {
+  content: "\e90b";
+}
+.lang-html5:before {
+  content: "\e90c";
+}
+.lang-html:before {
+  content: "\e90c";
+}
+.lang-java:before {
+  content: "\e90d";
+}
+.lang-javascript:before {
+  content: "\e90e";
+}
+.lang-java-wave:before {
+  content: "\e90f";
+}
+.lang-jquery:before {
+  content: "\e910";
+}
+.lang-json:before {
+  content: "\e911";
+}
+.lang-less:before {
+  content: "\e912";
+}
+.lang-less-light:before {
+  content: "\e913";
+}
+.lang-lisp:before {
+  content: "\e914";
+}
+.lang-lua:before {
+  content: "\e915";
+}
+.lang-lua-min:before {
+  content: "\e916";
+}
+.lang-mysql:before {
+  content: "\e917";
+}
+.lang-nodejs:before {
+  content: "\e918";
+}
+.lang-ocaml:before {
+  content: "\e919";
+}
+.lang-perl:before {
+  content: "\e91a";
+}
+.lang-php:before {
+  content: "\e91b";
+}
+.lang-php-elephpant:before {
+  content: "\e91c";
+}
+.lang-python:before {
+  content: "\e91d";
+}
+.lang-r:before {
+  content: "\e91e";
+}
+.lang-racket:before {
+  content: "\e91f";
+}
+.lang-rails:before {
+  content: "\e920";
+}
+.lang-reactjs:before {
+  content: "\e921";
+}
+.lang-ruby:before {
+  content: "\e922";
+}
+.lang-sass:before {
+  content: "\e923";
+}
+.lang-scala:before {
+  content: "\e924";
+}
+.lang-swift:before {
+  content: "\e925";
+}
+.lang-tcl:before {
+  content: "\e926";
+}
+.lang-vuejs:before {
+  content: "\e927";
+}
+.lang-vue:before {
+  content: "\e927";
+}
+
