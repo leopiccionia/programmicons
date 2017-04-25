@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'programmicons';
-  src: url('../font/programmicons.eot?1241421');
-  src: url('../font/programmicons.eot?1241421#iefix') format('embedded-opentype'),
-       url('../font/programmicons.woff2?1241421') format('woff2'),
-       url('../font/programmicons.woff?1241421') format('woff'),
-       url('../font/programmicons.ttf?1241421') format('truetype'),
-       url('../font/programmicons.svg?1241421#programmicons') format('svg');
+  src: url('../font/programmicons.eot?87310769');
+  src: url('../font/programmicons.eot?87310769#iefix') format('embedded-opentype'),
+       url('../font/programmicons.woff2?87310769') format('woff2'),
+       url('../font/programmicons.woff?87310769') format('woff'),
+       url('../font/programmicons.ttf?87310769') format('truetype'),
+       url('../font/programmicons.svg?87310769#programmicons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'programmicons';
-    src: url('../font/programmicons.svg?1241421#programmicons') format('svg');
+    src: url('../font/programmicons.svg?87310769#programmicons') format('svg');
   }
 }
 */
@@ -60,44 +60,54 @@
 .lang-bash:before { content: '\e802'; } /* '' */
 .lang-bootstrap:before { content: '\e803'; } /* '' */
 .lang-c:before { content: '\e804'; } /* '' */
+.lang-ceylon:before { content: '\e805'; } /* '' */
 .lang-clojure:before { content: '\e806'; } /* '' */
 .lang-coffeescript:before { content: '\e807'; } /* '' */
 .lang-cpp:before { content: '\e808'; } /* '' */
 .lang-css3:before { content: '\e809'; } /* '' */
-.lang-dart:before { content: '\e80a'; } /* '' */
+.lang-d:before { content: '\e80a'; } /* '' */
+.lang-dart:before { content: '\e80b'; } /* '' */
 .lang-dotnet:before { content: '\e80c'; } /* '' */
-.lang-go:before { content: '\e80d'; } /* '' */
-.lang-groovy:before { content: '\e80e'; } /* '' */
-.lang-haskell:before { content: '\e80f'; } /* '' */
-.lang-html5:before { content: '\e810'; } /* '' */
-.lang-java:before { content: '\e811'; } /* '' */
-.lang-javascript:before { content: '\e812'; } /* '' */
-.lang-java-wave:before { content: '\e813'; } /* '' */
-.lang-jquery:before { content: '\e814'; } /* '' */
-.lang-json:before { content: '\e815'; } /* '' */
-.lang-kotlin:before { content: '\e816'; } /* '' */
-.lang-less:before { content: '\e817'; } /* '' */
-.lang-lisp:before { content: '\e818'; } /* '' */
-.lang-lua:before { content: '\e819'; } /* '' */
-.lang-lua-min:before { content: '\e81a'; } /* '' */
-.lang-mongodb:before { content: '\e81b'; } /* '' */
-.lang-mysql:before { content: '\e81d'; } /* '' */
-.lang-nodejs:before { content: '\e81e'; } /* '' */
-.lang-ocaml:before { content: '\e81f'; } /* '' */
-.lang-perl:before { content: '\e820'; } /* '' */
-.lang-php:before { content: '\e821'; } /* '' */
-.lang-php-elephpant:before { content: '\e822'; } /* '' */
-.lang-postgresql:before { content: '\e823'; } /* '' */
-.lang-python:before { content: '\e824'; } /* '' */
-.lang-r:before { content: '\e825'; } /* '' */
-.lang-racket:before { content: '\e826'; } /* '' */
-.lang-rails:before { content: '\e827'; } /* '' */
-.lang-reactjs:before { content: '\e828'; } /* '' */
-.lang-ruby:before { content: '\e829'; } /* '' */
-.lang-rust:before { content: '\e82a'; } /* '' */
-.lang-sass:before { content: '\e82b'; } /* '' */
-.lang-scala:before { content: '\e82c'; } /* '' */
-.lang-smalltalk:before { content: '\e82d'; } /* '' */
-.lang-swift:before { content: '\e82e'; } /* '' */
-.lang-tcl:before { content: '\e82f'; } /* '' */
-.lang-vuejs:before { content: '\e830'; } /* '' */
+.lang-elm:before { content: '\e80d'; } /* '' */
+.lang-erlang:before { content: '\e80e'; } /* '' */
+.lang-go:before { content: '\e80f'; } /* '' */
+.lang-groovy:before { content: '\e810'; } /* '' */
+.lang-hack:before { content: '\e811'; } /* '' */
+.lang-haskell:before { content: '\e812'; } /* '' */
+.lang-html5:before { content: '\e813'; } /* '' */
+.lang-java:before { content: '\e814'; } /* '' */
+.lang-javascript:before { content: '\e815'; } /* '' */
+.lang-java-wave:before { content: '\e816'; } /* '' */
+.lang-jquery:before { content: '\e817'; } /* '' */
+.lang-json:before { content: '\e818'; } /* '' */
+.lang-julia:before { content: '\e819'; } /* '' */
+.lang-julia-min:before { content: '\e81a'; } /* '' */
+.lang-kotlin:before { content: '\e81b'; } /* '' */
+.lang-less:before { content: '\e81c'; } /* '' */
+.lang-lisp:before { content: '\e81d'; } /* '' */
+.lang-lua:before { content: '\e81e'; } /* '' */
+.lang-lua-min:before { content: '\e81f'; } /* '' */
+.lang-markdown:before { content: '\e820'; } /* '' */
+.lang-mongodb:before { content: '\e821'; } /* '' */
+.lang-moonscript:before { content: '\e822'; } /* '' */
+.lang-mysql:before { content: '\e823'; } /* '' */
+.lang-nodejs:before { content: '\e824'; } /* '' */
+.lang-ocaml:before { content: '\e825'; } /* '' */
+.lang-perl:before { content: '\e826'; } /* '' */
+.lang-php:before { content: '\e827'; } /* '' */
+.lang-php-elephpant:before { content: '\e828'; } /* '' */
+.lang-postgresql:before { content: '\e829'; } /* '' */
+.lang-python:before { content: '\e82a'; } /* '' */
+.lang-r:before { content: '\e82b'; } /* '' */
+.lang-racket:before { content: '\e82c'; } /* '' */
+.lang-rails:before { content: '\e82d'; } /* '' */
+.lang-reactjs:before { content: '\e82e'; } /* '' */
+.lang-ruby:before { content: '\e82f'; } /* '' */
+.lang-rust:before { content: '\e830'; } /* '' */
+.lang-sass:before { content: '\e831'; } /* '' */
+.lang-scala:before { content: '\e832'; } /* '' */
+.lang-smalltalk:before { content: '\e833'; } /* '' */
+.lang-swift:before { content: '\e834'; } /* '' */
+.lang-tcl:before { content: '\e835'; } /* '' */
+.lang-typescript:before { content: '\e836'; } /* '' */
+.lang-vuejs:before { content: '\e837'; } /* '' */
