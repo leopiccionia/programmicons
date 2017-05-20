@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Programmicons</title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="css/programmicons.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"/>
+		<style>
+			.icon-sm {
+				font-size: 16px;
+			}
+			.icon-md {
+				font-size: 32px;
+			}
+			.icon-lg {
+				font-size: 64px;
+			}
+			.dark {
+				background-color: #333333;
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="demo" class="container text-center">
+			<h1>Programmicons</h1>
+			<label for="theme">Dark</label>
+			<input type="checkbox" v-model="isDark"/>
+			<div v-for="lang in langs">
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center" :class="{dark: isDark}">
+					<i class="icon-sm" :class="langClass(lang)" style="vertical-align: middle"></i>
+					<i class="icon-md" :class="langClass(lang)" style="vertical-align: middle"></i>
+					<i class="icon-lg" :class="langClass(lang)" style="vertical-align: middle"></i>
+					<p><code>{{langClass(lang)}}</code></p>										
+				</div>
+			</div>
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.3/vue.min.js"></script>
+		<script>
+			new Vue({
+				el: '#demo',
+				data: {
+					isDark: false,
+					langs: [
+						'ada-ladybird', 'angular',
+						'bash', 'bootstrap',
+						'c', 'ceylon', 'clojure', 'coffeescript', 'cpp', 'css3',
+						'd', 'dart', 'dotnet',
+						'elm', 'erlang', 
+						'go', 'groovy',
+						'hack', 'haskell', 'html5', 
+						'java', 'java-wave', 'javascript', 'jquery', 'json', 'julia', 'julia-min',
+						'kotlin',
+						'less', 'lisp', 'lua', 'lua-min',
+						'markdown', 'mongodb', 'moonscript', 'mysql',
+						'nodejs',
+						'ocaml',
+						'perl', 'php', 'php-elephpant', 'postgresql', 'python',
+						'r', 'racket', 'rails', 'reactjs', 'ruby', 'rust',
+						'sass', 'scala', 'smalltalk', 'swift',
+						'tcl', 'typescript',
+						'vuejs'
+					]
+				},
+				methods: {
+					langClass: (name) => 'lang-' + name
+				}
+			});
+		</script>
+	</body>
+</html>
